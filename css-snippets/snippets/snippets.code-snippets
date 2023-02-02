@@ -1,0 +1,25 @@
+{
+    "reset": {
+      "prefix": "r,reset,rc",
+      "body": [
+        "html,\nbody,\ndiv,\nspan,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\naddress,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrong,\nsub,\nsup,\nvar,\nb,\nu,\ni,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo\t{\n\tmargin: 0;\n\tpadding:0;\n\tborder:0;\n\tfont-size:100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}$0"
+      ],
+      "description": "Reset CSS for browser inconsistencies"
+    },
+  
+    "element border outline": {
+      "prefix": "eo,elo,outline",
+      "body": [
+        "*\t{\n  box-sizing: border-box;\n  outline: 1px solid red !important;\n}"
+      ],
+      "description": "Helpful to debug and find errors"
+    },
+  
+    "element background": {
+      "prefix": "eb,bg,elb,background",
+      "body": [
+        "*\t{\n  box-sizing: border-box;\n  background: rgb(0 100 0 / 0.05) !important;\n}"
+      ],
+      "description": "Helpful to debug and find errors"
+    }
+}

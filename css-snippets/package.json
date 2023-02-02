@@ -1,0 +1,26 @@
+{
+  "publisher": "ihtshamshafiq",
+  "name": "reset-css",
+  "displayName": "CSS Refresh",
+  "description": "Helpful CSS Snippets to debug and normalise CSS.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shafiqihtsham/css-snippets"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
